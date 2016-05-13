@@ -1,757 +1,588 @@
 * {
-	box-sizing: border-box;
-
+box-sizing: border-box;
 }
-
 body {
-	background:#FFFFFF;
-	font-family: Raleway, open sans;
+background:#FFFFFF;
+font-family: Raleway, open sans;
 }
-
-
-
 .clear {
-	clear: both;
+clear: both;
 }
-
 .nav-menu {
-	background-color: #FFFFFF;
-    
-    
+background-color: #FFFFFF;
 }
-
 .container {
-	max-width: 1200px;
-	width: auto;
-	margin: auto;
-
+max-width: 1200px;
+width: auto;
+margin: auto;
 }
-
 .logo {
-	margin-left: 10px;
-	padding: 10px 0;
+margin-left: 10px;
+padding: 10px 0;
 }
-
 .menu {
-	float: right;
-	padding: 16px 16px;
+float: right;
+padding: 16px 16px;
 }
-
 .menu li {
-	display: inline-block;
-    margin-left: 5px;
-    font-size: 10px;
-    text-transform: uppercase;
-    color: #132d3c;
-    font-family: open sans;
-    font-weight: 700;
-
+display: inline-block;
+margin-left: 5px;
+font-size: 10px;
+text-transform: uppercase;
+color: #132d3c;
+font-family: open sans;
+font-weight: 700;
 }
-
 .header {
-	background: url("../assets/indexbanner-bg3.jpg");
-	width: 100%;
-	height: 528px;
-	background-size: cover;
-
+background: url("../assets/indexbanner-bg3.jpg");
+width: 100%;
+height: 528px;
+background-size: cover;
 }
-
-
 .titulo {
-	color: #FFFFFF;
-    margin-left: 80px;
-    padding-top: 170px;
-    max-width: 500px;
+color: #FFFFFF;
+margin-left: 80px;
+padding-top: 170px;
+max-width: 500px;
 }
-
 .titulo h1 {
-	font-size: 35px;
-	font-weight: 800;
-	text-transform: capitalize;
+font-size: 35px;
+font-weight: 800;
+text-transform: capitalize;
 }
-
 .titulo h3 {
-	margin-top: 12px;
-    line-height: 1.5;
-    font-size: 12px;
-    color: #A4A4A4;
+margin-top: 12px;
+line-height: 1.5;
+font-size: 12px;
+color: #A4A4A4;
 }
-
-
 .busqueda {
-	width: 79%;
-    height: 60px;
-    margin-top: 247px;
-    background-color: #FFFFFF;
-    border-radius: 1px solid #FFFFFF;
-    padding-left: 10px;
+width: 79%;
+height: 60px;
+margin-top: 247px;
+background-color: #FFFFFF;
+border-radius: 1px solid #FFFFFF;
+padding-left: 10px;
 }
-
-
 .btn-search {
-	width: 20%;
-    height: 60px;
-    margin-left: -5px;
-    background-color: #00BFFF;
-    border: 1px solid #00BFFF;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    text-align: center;
+width: 20%;
+height: 60px;
+margin-left: -5px;
+background-color: #00BFFF;
+border: 1px solid #00BFFF;
+color: #FFFFFF;
+text-transform: uppercase;
+text-align: center;
 }
-
 .caja-card {
-	text-align: center;
+text-align: center;
 }
-
 .iconos {
-	width: 125px;
-    height: 125px;
-    background: deepskyblue;
-    border-radius: 50%;
-    margin: auto;
-    margin-bottom: 30px;
-    font-size: 53px;
-    color: white;
-    padding-top: 33px;
-    text-align: center;
-    cursor: pointer;
-    -webkit-transition: 1.3s ease-in-out;
-    -moz-transition: 1.3s ease-in-out;
-    -o-transition: 1.3s ease-in-out;
-    transition: 1.3s ease-in-out;
+width: 125px;
+height: 125px;
+background: deepskyblue;
+border-radius: 50%;
+margin: auto;
+margin-bottom: 30px;
+font-size: 53px;
+color: white;
+padding-top: 33px;
+text-align: center;
+cursor: pointer;
+-webkit-transition: 1.3s ease-in-out;
+-moz-transition: 1.3s ease-in-out;
+-o-transition: 1.3s ease-in-out;
+transition: 1.3s ease-in-out;
 }
-
 .iconos:hover {
-	cursor: pointer;
-	-webkit-transform: scale(1.35);
-    transform: scale(1.35)
+cursor: pointer;
+-webkit-transform: scale(1.35);
+transform: scale(1.35)
 }
-
 .services {
-	background: #FED501;
-	
+background: #FED501;
 }
-
 .support {
-	background: #FF9456;
+background: #FF9456;
 }
-
 .domain {
-	background: #FF5F3D;
+background: #FF5F3D;
 }
-
-
 .card {
-	display: inline-block;
-	margin-top: 100px;
-	
-	text-align: center;
-	max-width: 220px;
+display: inline-block;
+margin-top: 100px;
+text-align: center;
+max-width: 220px;
 }
-
-
 .card h3 {
-	text-transform: uppercase;
-	font-weight: 800;
-	font-size: 14px;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 14px;
 }
-
 .subtitulo {
-	margin-top: 15px;
-	font-size: 12px;
-	color: gray;
+margin-top: 15px;
+font-size: 12px;
+color: gray;
 }
-
 hgroup{
-	text-align: center;
-    max-width: 500px;
-    margin: auto;
+text-align: center;
+max-width: 500px;
+margin: auto;
 }
-
 hgroup h2 {
-	margin-top: 100px;
-	font-size: 28px;
-	font-weight: 800;
-	text-transform: capitalize;
+margin-top: 100px;
+font-size: 28px;
+font-weight: 800;
+text-transform: capitalize;
 }
-
 .caja-bloque-iphone {
-	margin: auto;
-    text-align: right;
-    margin-top: 100px;
-
+margin: auto;
+text-align: right;
+margin-top: 100px;
 }
-
 .box-title {
-	display: inline-block;
-	width: 201px
-	
+display: inline-block;
+width: 201px
 }
-
 .box-title.second {
-	margin-left: 16px;
+margin-left: 16px;
 }
-
 .picture {
-	width: 50px;
-    height: 50px;
-    border: 2px solid deepskyblue;
-    display: inline-block;
-    margin-left: -47px;
-    border-radius: 50%;
-    position: relative;
-    top: -27px;
-    left: 51px;
+width: 50px;
+height: 50px;
+border: 2px solid deepskyblue;
+display: inline-block;
+margin-left: -47px;
+border-radius: 50%;
+position: relative;
+top: -27px;
+left: 51px;
 }
-
 .picture.two {
-	left: 12px;
+left: 12px;
 }
-
 .pic-icon {
-	position: absolute;
-    top: 9px;
-    left: 11px;
-    font-size: 27px;
-    color: deepskyblue;
-    
+position: absolute;
+top: 9px;
+left: 11px;
+font-size: 27px;
+color: deepskyblue;
 }
-
 .upload {
-	left: 14px;
+left: 14px;
 }
-
 .love {
-	top: 11px;
-	left: 12px;
+top: 11px;
+left: 12px;
 }
-
 .color-feat {
-	left: 13px;
+left: 13px;
 }
-
 .clock {
-	left: 12px;
+left: 12px;
 }
-
-
-
-
 .floatleft {
-	float: left;
-	width: 31%;
-
+float: left;
+width: 31%;
 }
-
-
 .left {
-    margin-top: 62px;
+margin-top: 62px;
 }
-
 .floatleft img {
-	width: 80%;
-	margin: auto;
-
+width: 80%;
+margin: auto;
 }
-
-
 .right {
-	text-align: left;
-    margin-left: 45px;
-    margin-top: 60px;
+text-align: left;
+margin-left: 45px;
+margin-top: 60px;
 }
-
 .left h4, .right h4 {
-    font-size: 20px;
-    font-weight: 800;
-    text-transform: uppercase;
+font-size: 20px;
+font-weight: 800;
+text-transform: uppercase;
 }
-
 .lista {
-	margin-top: 75px;
+margin-top: 75px;
 }
-
 ul li article h6 {
-	font-size: 12px;
-	color: gray;
-	margin-top: 10px;
-	margin-top: 18px;
-	margin-left: -87px;
+font-size: 12px;
+color: gray;
+margin-top: 10px;
+margin-top: 18px;
+margin-left: -87px;
 }
-
 .box-title.second h6 {
-	margin-left: 0px;
-	width: 308px;
+margin-left: 0px;
+width: 308px;
 }
-
 .fondo-cards {
-	background: url("../assets/pricing-bg.jpg") no-repeat scroll top center;
-    background-size: 100% auto;
-    margin-top: -80px;
-   
+background: url("../assets/pricing-bg.jpg") no-repeat scroll top center;
+background-size: 100% auto;
+margin-top: -80px;
 }
-
 .hcards {
-	padding-top: 40px;
-	text-align: center;
-	font-size: 30px;
+padding-top: 40px;
+text-align: center;
+font-size: 30px;
 }
-
 .hcards h3 {
-	font-size: 12px;
-	color: gray;
-	padding-top: 20px;
-
+font-size: 12px;
+color: gray;
+padding-top: 20px;
 }
-
 .card-price {
-	display: inline-block;
-    text-align: center;
-    background-color: #fff;
-    width: 20%;
-    height: 400px;
-    box-shadow: 0 0 1em #37332F;
-    margin: 0px 20px;
-    margin-top: 80px;
-    margin-bottom: 50px;
+display: inline-block;
+text-align: center;
+background-color: #fff;
+width: 20%;
+height: 400px;
+box-shadow: 0 0 1em #37332F;
+margin: 0px 20px;
+margin-top: 80px;
+margin-bottom: 50px;
 }
-
-
 .card-price h3 {
-	padding-top: 50px;
-	font-size: 16px;
-	font-weight: 800;
-	text-transform: uppercase;
+padding-top: 50px;
+font-size: 16px;
+font-weight: 800;
+text-transform: uppercase;
 }
-
 .card-price h2 {
-	padding-top: 20px;
-	font-size: 38px;
-	font-weight: 800;
-	font-family: Open Sans;
+padding-top: 20px;
+font-size: 38px;
+font-weight: 800;
+font-family: Open Sans;
 }
-
 .card-price__number {
-    position: relative;
-   
+position: relative;
 }
-
 .dolar {
-	position: absolute;
-    left: 34%;
-    top: 42%;
-    font-weight: 800;
+position: absolute;
+left: 34%;
+top: 42%;
+font-weight: 800;
 }
-
 .card-price__cent {
-	position: absolute;
-	top: 37%;
-    left: 61%;
-    font-weight: 800;
+position: absolute;
+top: 37%;
+left: 61%;
+font-weight: 800;
 }
-
 .dolar.last {
-	position: absolute;
-    left: 29%;
-    top: 41%;
-    font-weight: 800;
+position: absolute;
+left: 29%;
+top: 41%;
+font-weight: 800;
 }
-
 .card-price__cent.last {
-	position: absolute;
-    top: 36%;
-    left: 67%;
-    font-weight: 800;
+position: absolute;
+top: 36%;
+left: 67%;
+font-weight: 800;
 }
-
 .mount {
-	color: gray;
-    font-style: italic;
-    font-size: 10px;
+color: gray;
+font-style: italic;
+font-size: 10px;
 }
-
 .card-price table {
-	margin-top: 32px;
-	margin-left: 73px;
+margin-top: 32px;
+margin-left: 73px;
 }
-
 .card-price table tr td {
-	padding-top: 15px;
-	font-size: 10px;
-	text-align: left;
+padding-top: 15px;
+font-size: 10px;
+text-align: left;
 }
-
 .number_pad {
-	    padding-left: 37px;
-	    color: #00AFF3;
+padding-left: 37px;
+color: #00AFF3;
 }
-
 .btn-plan {
-	margin-top: 60px;
-	font-family: open sans;
-	font-size: 10px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	background-color: #00AFF3;
-	border: 1px solid #00AFF3;
-	padding: 8px 16px 8px 16px; 
-	border-radius: 3px;
-
+margin-top: 60px;
+font-family: open sans;
+font-size: 10px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #00AFF3;
+border: 1px solid #00AFF3;
+padding: 8px 16px 8px 16px; 
+border-radius: 3px;
 }
-
 .hosting {
-	background-color: #142E3F;
-	height: 200px;
-	
+background-color: #142E3F;
+height: 200px;
 }
-
 .text {
-	
-	text-align: center;
-	padding-top: 90px;
-	color: gray;
-	font-family: open sans;
-	font-weight: normal;
-	font-size: 20px;
-
+text-align: center;
+padding-top: 90px;
+color: gray;
+font-family: open sans;
+font-weight: normal;
+font-size: 20px;
 }
-
 .miles {
-	color: #00AFF3;
+color: #00AFF3;
 }
-
-
 footer {
-	background-color: #091722;
-	height: 80px;
-	color: gray;
+background-color: #091722;
+height: 80px;
+color: gray;
 }
-
 .grillafoo {
-	max-width: 1200px;
-	margin: auto;
+max-width: 1200px;
+margin: auto;
 }
-
 .grillafoo h6 {
-	font-size: 10px;
-    padding-top: 28px;
+font-size: 10px;
+padding-top: 28px;
 }
-
 .menufoo{
-	padding-left: 90%;
-    margin-top: -6px;
-    font-size: 10px;
+padding-left: 90%;
+margin-top: -6px;
+font-size: 10px;
 }
-
 .menufoo li{
-	display: inline-block;
-	margin-right: 5px;
-	
+display: inline-block;
+margin-right: 5px;
 }
-
 .number {
-	padding-left: 40px;
-	color: blue;
+padding-left: 40px;
+color: blue;
 }
-
-
 @media screen and (max-width: 975px) {
-
-	.header {
-		background-size: 1135px;
-    	background-repeat: no-repeat;
-	}
-
-	.menu {
-		float: none;
-    	margin: auto;
-    	width: 100px;
-    	text-align: center;
-    	padding: 0px;
-    	padding-bottom: 25px;
-    	font-size: 16px;
-	}
-
-	.titulo {
-		margin-left: 20px;
-	}
-
-	.busqueda {
-		margin-top: 115px;
-		width: 80%;
-	}
-
-	.caja-card {
-		margin-top: -137px;
-	}
-
-	ul li article h6 {
-		margin-left: -43px;
-        width: 120%;
-	}
-
-	.box-title.second h6 {
-		margin-left: 0px;
-        width: 120%;
-	}
-
-	.card {
-		width: 49%;
-		max-width: none;
-	}
-
-	.card-price {
-		width: 45%;
-		box-shadow: 0 0 5px #37332F;
-	}
-
-	.card-price h2 {
-		font-size: 65px;
-	}
-
-	.dolar {
-	   left: 36%;
-       top: 33%;
-       font-size: 20px;
-	}
-
-	.card-price__cent {
-		top: 30%;
-        left: 61%;
-        font-size: 20px;
-	}
-
-	.card-price__cent.last {
-		top: 30%;
-        left: 65%;
-        font-size: 20px;
-	}
-
-	.dolar.last {
-		left: 31%;
-        top: 33%;
-        font-size: 20px;
-
-	}
-
-	.card-price table {
-		margin-left: none;
-		margin: auto;
-		margin-top: 35px;
-	}
-
-
-	.card-price table tr td {
-		font-size: 14px;
-	}
-
-	.btn-plan {
-		    margin-top: 25px;
-		    font-size: 16px;
-		    padding: 8px 26%;
-	}
-
-	.fondo-cards {
-		margin-top: 28px;
-	}
-
-	.hcards h2 {
-		color:#262C43;
-		font-size: 49px;
-	}
-
-	h2.text {
-		font-size: 33px;
-		color: #AFB0BA;
-	}
-
-	.grillafoo h6 {
-		text-align: center;
-		color: #AFB0BA;	
-		font-size: 12px;	
-	}
-
-	.menufoo {
-		padding-left: 45%;
-        margin-top: 15px;
-        color: #AFB0BA;
-        font-size: 12px;
-	}
+.header {
+background-size: 1135px;
+background-repeat: no-repeat;
 }
-
+.menu {
+float: none;
+margin: auto;
+width: 100px;
+text-align: center;
+padding: 0px;
+padding-bottom: 25px;
+font-size: 16px;
+}
+.titulo {
+margin-left: 20px;
+}
+.busqueda {
+margin-top: 115px;
+width: 80%;
+}
+.caja-card {
+margin-top: -137px;
+}
+ul li article h6 {
+margin-left: -43px;
+width: 120%;
+}
+.box-title.second h6 {
+margin-left: 0px;
+width: 120%;
+}
+.card {
+width: 49%;
+max-width: none;
+}
+.card-price {
+width: 45%;
+box-shadow: 0 0 5px #37332F;
+}
+.card-price h2 {
+font-size: 65px;
+}
+.dolar {
+left: 36%;
+top: 33%;
+font-size: 20px;
+}
+.card-price__cent {
+top: 30%;
+left: 61%;
+font-size: 20px;
+}
+.card-price__cent.last {
+top: 30%;
+left: 65%;
+font-size: 20px;
+}
+.dolar.last {
+left: 31%;
+top: 33%;
+font-size: 20px;
+}
+.card-price table {
+margin-left: none;
+margin: auto;
+margin-top: 35px;
+}
+.card-price table tr td {
+font-size: 14px;
+}
+.btn-plan {
+margin-top: 25px;
+font-size: 16px;
+padding: 8px 26%;
+}
+.fondo-cards {
+margin-top: 28px;
+}
+.hcards h2 {
+color:#262C43;
+font-size: 49px;
+}
+h2.text {
+font-size: 33px;
+color: #AFB0BA;
+}
+.grillafoo h6 {
+text-align: center;
+color: #AFB0BA; 
+font-size: 12px;    
+}
+.menufoo {
+padding-left: 45%;
+margin-top: 15px;
+color: #AFB0BA;
+font-size: 12px;
+}
+}
 @media screen and (max-width: 860px) {
-     .menu li {
-     	display: block;
-     	font-size: 13px;
-     	padding: 7px;
-
-     }
-
-     .caja-logo {
-     	margin: auto;
-        width: 170px;
-     }
-
-     .header {
-     	background: none;
-     }
-
-     .titulo {
-     	display: none;
-     }
-
-     .busqueda {
-     	margin-top: 0px;
-        width: 78%;
-        height: 79px;
-        margin-left: 1%;
-     }
-
-     .btn-search {
-     	height: 79px;
-     }
-
-     .caja-card {
-     	margin-top: -435px;
-     }
-
-     hgroup h2 {
-     	color: #233141;
-     	font-size: 44px;
-     }
-
-     hgroup p.subtitulo {
-     	font-size: 20px;
-     }
-
-     .floatleft {
-     	float: none;
-     }
-
-     .caja-bloque-iphone {
-     	text-align:left;
-     	width: 70%;
-     }
-
-     .box-title {
-     	width: 291%;
-     }
-
-     ul li article h6 {
-     	margin-left: 0px;
-     }
-
-     .picture {
-       top: -68px;
-       left: -14px;
-     }
-
-     .floatleft img {
-     	width: 150%;
-     	margin-left: 94%;
-     }
-
-     .box-title.second {
-     	margin-left: -44px;
-     }
-
-     .picture.two {
-     	left: -55px;
-        top: 36px;
-     }
-
-     hgroup h2.last {
-     	margin-top: 53px;
-     }
-
-     .hcards h3 {
-     	font-size: 16px;
-     }
-
-     .card-price {
-     	width: 40%;
-     	margin: 75px 4%;
-     }
-
-     .dolar {
-       left: 32%;
-       top: 32%;
-     }
-
-     .card-price__cent {
-     	top: 29%;
-        left: 63%;
-     }
-
-     .dolar.last {
-     	left: 25%;
-        top: 33%;
-     }
-
-     .card-price__cent.last {
-     	left: 70%;
-     }
-
-
-     @media screen and (max-width: 670px) {
-
-     	.card {
-     		display: block;
-     		margin: auto;
-     		margin-top: 20px;
-     	}
-
-     	.card-price {
-     		width: 38%;
-     	}
-
-     	.dolar {
-     		left: 28%;
-     	}
-
-     	.dolar.last {
-     		left: 22%;
-     	}
-
-     	.card-price__cent {
-     		left: 66%;
-     	}
-
-     	.card-price__cent.last {
-     		left: 73%;
-     	}
-     }
-
-     @media screen and (max-width: 580px) {
-         hgroup h2.last {
-         	margin-top: 0px;
-         }
-         .card-price {
-         	display: block;
-         	width: 93%;
-         }
-
-         .card-price h3 {
-         	font-size: 25px;
-         }
-
-         .dolar {
-         	left: 37%;
-         }
-
-         .card-price__cent {
-         	left: 60%;
-         }
-
-         .card-price__cent.last {
-         	left: 65%;
-         }
-
-         .dolar.last {
-         	left: 33%;
-         }
-     }
-
-     
+.menu li {
+display: block;
+font-size: 13px;
+padding: 7px;
+}
+.caja-logo {
+margin: auto;
+width: 170px;
+}
+.header {
+background: none;
+}
+.titulo {
+display: none;
+}
+.busqueda {
+margin-top: 0px;
+width: 78%;
+height: 79px;
+margin-left: 1%;
+}
+.btn-search {
+height: 79px;
+}
+.caja-card {
+margin-top: -435px;
+}
+hgroup h2 {
+color: #233141;
+font-size: 44px;
+}
+hgroup p.subtitulo {
+font-size: 20px;
+}
+.floatleft {
+float: none;
+}
+.caja-bloque-iphone {
+text-align:left;
+width: 70%;
+}
+.box-title {
+width: 291%;
+}
+ul li article h6 {
+margin-left: 0px;
+}
+.picture {
+top: -68px;
+left: -14px;
+}
+.floatleft img {
+width: 150%;
+margin-left: 94%;
+}
+.box-title.second {
+margin-left: -44px;
+}
+.picture.two {
+left: -55px;
+top: 36px;
+}
+hgroup h2.last {
+margin-top: 53px;
+}
+.hcards h3 {
+font-size: 16px;
+}
+.card-price {
+width: 40%;
+margin: 75px 4%;
+}
+.dolar {
+left: 32%;
+top: 32%;
+}
+.card-price__cent {
+top: 29%;
+left: 63%;
+}
+.dolar.last {
+left: 25%;
+top: 33%;
+}
+.card-price__cent.last {
+left: 70%;
+}
+@media screen and (max-width: 670px) {
+.card {
+display: block;
+margin: auto;
+margin-top: 20px;
+}
+.card-price {
+width: 38%;
+}
+.dolar {
+left: 28%;
+}
+.dolar.last {
+left: 22%;
+}
+.card-price__cent {
+left: 66%;
+}
+.card-price__cent.last {
+left: 73%;
+}
+}
+@media screen and (max-width: 580px) {
+hgroup h2.last {
+margin-top: 0px;
+}
+.card-price {
+display: block;
+width: 93%;
+}
+.card-price h3 {
+font-size: 25px;
+}
+.dolar {
+left: 37%;
+}
+.card-price__cent {
+left: 60%;
+}
+.card-price__cent.last {
+left: 65%;
+}
+.dolar.last {
+left: 33%;
+}
+}
 }
